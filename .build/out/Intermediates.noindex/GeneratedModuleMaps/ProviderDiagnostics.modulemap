@@ -1,4 +1,0 @@
-module ProviderDiagnostics {
-header "ProviderDiagnostics-Swift.h"
-export *
-}

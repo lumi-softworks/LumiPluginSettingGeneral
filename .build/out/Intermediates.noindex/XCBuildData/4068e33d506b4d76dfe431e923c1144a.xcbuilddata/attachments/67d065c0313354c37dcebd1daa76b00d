@@ -1,4 +1,0 @@
-module KernelCore {
-header "KernelCore-Swift.h"
-export *
-}

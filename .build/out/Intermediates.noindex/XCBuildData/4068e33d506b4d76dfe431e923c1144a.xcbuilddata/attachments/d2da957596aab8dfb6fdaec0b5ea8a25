@@ -1,4 +1,0 @@
-module ProviderCommand {
-header "ProviderCommand-Swift.h"
-export *
-}

@@ -1,4 +1,0 @@
-module LumiLocalizationKit {
-header "LumiLocalizationKit-Swift.h"
-export *
-}
