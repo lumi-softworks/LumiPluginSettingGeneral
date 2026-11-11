@@ -1,0 +1,100 @@
+{
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppMetadataCard.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppMetadataCard.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppMetadataCard.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppMetadataCard.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppMetadataCard.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppMetadataCard.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppPanelBar.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelBar.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelBar.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelBar.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelBar.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelBar.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppPanelChromeMetrics.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelChromeMetrics.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelChromeMetrics.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelChromeMetrics.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelChromeMetrics.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPanelChromeMetrics.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppPlaybackControlButtonStyle.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackControlButtonStyle.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackControlButtonStyle.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackControlButtonStyle.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackControlButtonStyle.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackControlButtonStyle.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppPlaybackProgressBar.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackProgressBar.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackProgressBar.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackProgressBar.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackProgressBar.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppPlaybackProgressBar.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppResponsivePlayerLayoutMetrics.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppResponsivePlayerLayoutMetrics.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppResponsivePlayerLayoutMetrics.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppResponsivePlayerLayoutMetrics.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppResponsivePlayerLayoutMetrics.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppResponsivePlayerLayoutMetrics.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppRoleBadge.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppRoleBadge.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppRoleBadge.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppRoleBadge.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppRoleBadge.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppRoleBadge.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSearchBar.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSearchBar.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSearchBar.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSearchBar.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSearchBar.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSearchBar.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSectionLabel.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSectionLabel.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSectionLabel.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSectionLabel.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSectionLabel.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSectionLabel.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSegmentedControl.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSegmentedControl.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSegmentedControl.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSegmentedControl.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSegmentedControl.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSegmentedControl.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingRow.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRow.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRow.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRow.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRow.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRow.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingRows.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRows.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRows.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRows.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRows.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingRows.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingSection.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingSection.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingSection.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingSection.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingSection.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingSection.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingsContentScaffold.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingsContentScaffold.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingsContentScaffold.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingsContentScaffold.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingsContentScaffold.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/AppSettingsContentScaffold.swiftdeps"
+  }
+}

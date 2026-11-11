@@ -1,0 +1,4 @@
+module ProviderSettingView {
+header "ProviderSettingView-Swift.h"
+export *
+}

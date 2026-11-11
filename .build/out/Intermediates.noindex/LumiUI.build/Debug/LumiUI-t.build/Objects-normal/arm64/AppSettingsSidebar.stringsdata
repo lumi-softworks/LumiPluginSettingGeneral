@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingsSidebar.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "v%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "Build %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 114
+        }
+      }
+    ]
+  },
+  "version": 1
+}

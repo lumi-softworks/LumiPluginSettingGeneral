@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Add %@ to your PATH to use the command right away.</key>
+	<string>將 %@ 加入 PATH，即可立即使用該命令。</string>
+	<key>Build</key>
+	<string>构建</string>
+	<key>Check for Updates</key>
+	<string>检查更新</string>
+	<key>Check...</key>
+	<string>检查…</string>
+	<key>Checking...</key>
+	<string>正在檢查…</string>
+	<key>Command Line Tool</key>
+	<string>命令列工具</string>
+	<key>General</key>
+	<string>一般</string>
+	<key>General Settings</key>
+	<string>一般設定</string>
+	<key>Install</key>
+	<string>安裝</string>
+	<key>Install the lumi command to open directories from the terminal.</key>
+	<string>安裝 lumi 命令，即可在終端機中開啟目錄。</string>
+	<key>Installation failed: %@</key>
+	<string>安裝失敗：%@</string>
+	<key>Installed at %@</key>
+	<string>已安裝到 %@</string>
+	<key>Lumi</key>
+	<string>Lumi</string>
+	<key>Name</key>
+	<string>名称</string>
+	<key>Not Installed</key>
+	<string>未安裝</string>
+	<key>Registers the General settings entry with app info, website and updates.</key>
+	<string>在設定中註冊「一般」入口，包含應用程式資訊、網站與更新。</string>
+	<key>Settings...</key>
+	<string>设置…</string>
+	<key>The lumi command is ready to use.</key>
+	<string>lumi 命令已就緒。</string>
+	<key>Uninstall</key>
+	<string>解除安裝</string>
+	<key>Updates</key>
+	<string>更新</string>
+	<key>Version</key>
+	<string>版本</string>
+	<key>暂时还没有说明书。</key>
+	<string>暂时还没有说明书。</string>
+	<key>说明书</key>
+	<string>说明书</string>
+</dict>
+</plist>

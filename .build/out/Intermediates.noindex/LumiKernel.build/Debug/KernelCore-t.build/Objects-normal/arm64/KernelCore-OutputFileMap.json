@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore-primary.dia",
+    "emit-module-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore-primary-emit-module.dia",
+    "pch" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore-primary.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/PluginContribution.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginContribution~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/PluginDataMigration.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigration~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/PluginDataMigrationRunner.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginDataMigrationRunner~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/PluginMetadata.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginMetadata~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/PluginStatePersisting.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/PluginStatePersisting~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Contracts/SuperPlugin.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/SuperPlugin~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/Errors/KernelCoreError.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCoreError~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore+AsyncPlugin.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+AsyncPlugin~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore+Contribution.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Contribution~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore+Events.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Events~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore+Plugin.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Plugin~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore+Provider.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore+Provider~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiKernel/Sources/KernelCore/KernelCore.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.dia",
+    "index-unit-output-path" : "/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiKernel.build/Debug/KernelCore-t.build/Objects-normal/arm64/KernelCore~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "" : {
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginSettingGeneral-primary.dia",
+    "emit-module-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginSettingGeneral-primary-emit-module.d",
+    "emit-module-diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginSettingGeneral-primary-emit-module.dia",
+    "pch" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginSettingGeneral-primary-Bridging-header.pch",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginSettingGeneral-primary.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/AppVersion.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/AppVersion~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/CapabilityError.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/CapabilityError~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsCapabilityError.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsCapabilityError~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsDiagnosticsCapability.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDiagnosticsCapability~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsDocsCapability.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDocsCapability~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsStorageCapability.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsStorageCapability~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsUninstallCapability.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUninstallCapability~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Capabilities/GeneralSettingsUpdateChannelCapability.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsUpdateChannelCapability~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Observers/GeneralSettingsObserver.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsObserver~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/SettingGeneralConfiguration.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralConfiguration~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/SettingGeneralPlugin.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/SettingGeneralPlugin~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Support/PluginLocalization.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/PluginLocalization~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Support/UninstallSummary.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallSummary~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/ViewModels/GeneralSettingsViewModel.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsViewModel~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/GeneralSettingsDetailView.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/GeneralSettingsDetailView~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/ManualsBrowserView.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/ManualsBrowserView~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/UninstallConfirmationView.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallConfirmationView~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/UninstallOverlayView.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayView~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/UninstallOverlayWindow.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.dia",
+    "index-unit-output-path" : "/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/Objects-normal/arm64/UninstallOverlayWindow~partial.swiftmodule"
+  }
+}

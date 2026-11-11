@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppMetadataCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "https://example.com/v1/chat/completions",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "2.762 s",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 78
+        }
+      }
+    ]
+  },
+  "version": 1
+}

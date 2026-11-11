@@ -1,0 +1,93 @@
+{
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/GlassKeyValueRow.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassKeyValueRow.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassKeyValueRow.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassKeyValueRow.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassKeyValueRow.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassKeyValueRow.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/GlassRow.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassRow.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassRow.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassRow.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassRow.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassRow.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/GlassSectionHeader.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSectionHeader.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSectionHeader.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSectionHeader.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSectionHeader.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSectionHeader.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/GlassSelectionCard.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSelectionCard.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSelectionCard.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSelectionCard.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSelectionCard.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassSelectionCard.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/GlassTextField.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassTextField.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassTextField.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassTextField.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassTextField.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GlassTextField.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/HoverContainers.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/HoverContainers.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/HoverContainers.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/HoverContainers.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/HoverContainers.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/HoverContainers.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LLMProviderLandingPage.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LLMProviderLandingPage.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LLMProviderLandingPage.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LLMProviderLandingPage.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LLMProviderLandingPage.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LLMProviderLandingPage.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingAppear.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingAppear.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingAppear.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingAppear.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingAppear.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingAppear.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingFeatureCard.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureCard.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureCard.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureCard.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureCard.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureCard.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingFeatureGrid.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureGrid.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureGrid.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureGrid.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureGrid.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingFeatureGrid.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingHero.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingHero.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingHero.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingHero.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingHero.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingHero.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingInventory.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingInventory.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingInventory.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingInventory.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingInventory.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingInventory.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/Landing/LandingPipeline.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingPipeline.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingPipeline.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingPipeline.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingPipeline.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LandingPipeline.swiftdeps"
+  }
+}

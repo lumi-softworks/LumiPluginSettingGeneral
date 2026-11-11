@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppToggleRow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use dark appearance",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 56
+        }
+      }
+    ]
+  },
+  "version": 1
+}

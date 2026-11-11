@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSearchBar.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索…",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 116
+        }
+      }
+    ]
+  },
+  "version": 1
+}

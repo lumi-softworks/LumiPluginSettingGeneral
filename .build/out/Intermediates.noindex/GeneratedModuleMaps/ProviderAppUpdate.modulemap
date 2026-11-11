@@ -1,0 +1,4 @@
+module ProviderAppUpdate {
+header "ProviderAppUpdate-Swift.h"
+export *
+}

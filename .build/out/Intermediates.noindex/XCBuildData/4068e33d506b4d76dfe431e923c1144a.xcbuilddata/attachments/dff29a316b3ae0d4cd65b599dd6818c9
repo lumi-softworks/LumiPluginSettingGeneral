@@ -1,0 +1,4 @@
+module PluginSettingGeneral {
+header "PluginSettingGeneral-Swift.h"
+export *
+}

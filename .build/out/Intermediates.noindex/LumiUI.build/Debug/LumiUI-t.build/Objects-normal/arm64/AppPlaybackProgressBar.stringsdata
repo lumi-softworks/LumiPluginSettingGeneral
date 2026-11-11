@@ -1,0 +1,16 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppPlaybackProgressBar.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Playback progress",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 40
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSegmentedControl.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "selected",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "not selected",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 74
+        }
+      }
+    ]
+  },
+  "version": 1
+}

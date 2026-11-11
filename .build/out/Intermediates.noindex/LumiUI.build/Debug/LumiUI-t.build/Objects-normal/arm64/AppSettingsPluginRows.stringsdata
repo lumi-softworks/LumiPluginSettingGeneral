@@ -1,0 +1,32 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppSettingsPluginRows.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enabled",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable",
+        "location": {
+          "startingColumn": 100,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 260
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,187 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiPluginSettingGeneral.build/Debug/PluginSettingGeneral-t.build/DerivedSources/GeneratedStringSymbols_Localizable.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add %@ to your PATH to use the command right away.",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 25
+        },
+        "value": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Build",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Check for Updates",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checking...",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Command Line Tool",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "General",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "General Settings",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Install the lumi command to open directories from the terminal.",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "Installation failed: %@",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 88
+        },
+        "value": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Installed at %@",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 95
+        },
+        "value": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Lumi",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not Installed",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Registers the General settings entry with app info, website and updates.",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings...",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "The lumi command is ready to use.",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Uninstall",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 144
+        }
+      },
+      {
+        "comment": "",
+        "key": "Updates",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂时还没有说明书。",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "说明书",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 172
+        }
+      }
+    ]
+  },
+  "version": 1
+}

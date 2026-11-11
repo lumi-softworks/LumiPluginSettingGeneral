@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key> (%@)</key>
+	<string>（%@）</string>
+	<key>%lld</key>
+	<string>%lld</string>
+	<key>%lld%%</key>
+	<string>%lld%%</string>
+	<key>%lld.</key>
+	<string>%lld.</string>
+	<key>Account</key>
+	<string>账户</string>
+	<key>Account Info</key>
+	<string>账户信息</string>
+	<key>Activity on %@: level %lld</key>
+	<string>%@ 活动等级：%lld</string>
+	<key>Add</key>
+	<string>添加</string>
+	<key>Advanced</key>
+	<string>高级</string>
+	<key>Advanced Settings</key>
+	<string>高级设置</string>
+	<key>An unexpected error occurred.</key>
+	<string>发生了一个意外错误。</string>
+	<key>Apps</key>
+	<string>应用</string>
+	<key>Build %@</key>
+	<string>Build %@</string>
+	<key>Claude</key>
+	<string>Claude</string>
+	<key>Click to preview image</key>
+	<string>点击预览图片</string>
+	<key>Close</key>
+	<string>关闭</string>
+	<key>Connection timeout</key>
+	<string>连接超时</string>
+	<key>Copied</key>
+	<string>已复制</string>
+	<key>Copy</key>
+	<string>复制</string>
+	<key>Copy API Key</key>
+	<string>复制 API Key</string>
+	<key>Copy message content</key>
+	<string>复制消息内容</string>
+	<key>Custom Theme</key>
+	<string>自定义主题</string>
+	<key>Dark Mode</key>
+	<string>深色模式</string>
+	<key>Destructive</key>
+	<string>危险操作</string>
+	<key>Done</key>
+	<string>完成</string>
+	<key>Elevated Card (hover me)</key>
+	<string>悬浮卡片（悬停查看）</string>
+	<key>Enable</key>
+	<string>启用</string>
+	<key>Enabled</key>
+	<string>已启用</string>
+	<key>Enter name</key>
+	<string>输入名称</string>
+	<key>Example Plugin</key>
+	<string>示例插件</string>
+	<key>Failed to load data</key>
+	<string>加载数据失败</string>
+	<key>Full keyboard</key>
+	<string>全键盘</string>
+	<key>GPT-4</key>
+	<string>GPT-4</string>
+	<key>GPT-4o • OpenAI</key>
+	<string>GPT-4o • OpenAI</string>
+	<key>General</key>
+	<string>通用</string>
+	<key>Ghost</key>
+	<string>幽灵</string>
+	<key>Git</key>
+	<string>Git</string>
+	<key>Glass Card (default)</key>
+	<string>玻璃卡片（默认）</string>
+	<key>Glass Card with Glow</key>
+	<string>带辉光的玻璃卡片</string>
+	<key>Glass Surface</key>
+	<string>玻璃表面</string>
+	<key>Glass Thick</key>
+	<string>厚玻璃</string>
+	<key>HTTP Response</key>
+	<string>HTTP 响应</string>
+	<key>Hello, how can I help you today?</key>
+	<string>你好，今天有什么可以帮你的？</string>
+	<key>Home</key>
+	<string>主页</string>
+	<key>Hover me</key>
+	<string>悬停查看</string>
+	<key>Hover over me</key>
+	<string>悬停查看</string>
+	<key>I can assist with coding, writing, and more!</key>
+	<string>我可以协助你进行编程、写作等更多任务！</string>
+	<key>Last 24 hours</key>
+	<string>最近 24 小时</string>
+	<key>Less</key>
+	<string>较少</string>
+	<key>Mind Map</key>
+	<string>思维导图</string>
+	<key>Model</key>
+	<string>模型</string>
+	<key>Model Info</key>
+	<string>模型信息</string>
+	<key>More</key>
+	<string>更多</string>
+	<key>Multiple tabs</key>
+	<string>多个标签页</string>
+	<key>No Results</key>
+	<string>无结果</string>
+	<key>No response body</key>
+	<string>无响应体</string>
+	<key>Normal Item</key>
+	<string>普通项</string>
+	<key>Nothing Here Yet</key>
+	<string>暂无内容</string>
+	<key>Notifications</key>
+	<string>通知</string>
+	<key>Password</key>
+	<string>密码</string>
+	<key>Plugin-specific options</key>
+	<string>插件专属选项</string>
+	<key>Pretty</key>
+	<string>格式化</string>
+	<key>Primary</key>
+	<string>主要</string>
+	<key>Projects</key>
+	<string>项目</string>
+	<key>Raw</key>
+	<string>原始</string>
+	<key>Ready</key>
+	<string>就绪</string>
+	<key>Response Body</key>
+	<string>响应体</string>
+	<key>Search</key>
+	<string>搜索</string>
+	<key>Secondary</key>
+	<string>次要</string>
+	<key>Section</key>
+	<string>分区</string>
+	<key>Selected Item</key>
+	<string>已选项</string>
+	<key>Selected Option</key>
+	<string>已选选项</string>
+	<key>Selected row</key>
+	<string>已选行</string>
+	<key>Setting 1</key>
+	<string>设置 1</string>
+	<key>Setting 2</key>
+	<string>设置 2</string>
+	<key>Settings</key>
+	<string>设置</string>
+	<key>Settings Row</key>
+	<string>设置行</string>
+	<key>Shared section styling</key>
+	<string>共享分区样式</string>
+	<key>Small</key>
+	<string>小</string>
+	<key>Standalone</key>
+	<string>独立</string>
+	<key>Status</key>
+	<string>状态</string>
+	<key>Subtle</key>
+	<string>微妙</string>
+	<key>Subtle Card</key>
+	<string>微妙卡片</string>
+	<key>Tokens</key>
+	<string>令牌</string>
+	<key>Tokens: 1,234
+Requests: 56</key>
+	<string>令牌：1,234\n请求：56</string>
+	<key>Tonal</key>
+	<string>色调</string>
+	<key>Unselected Option</key>
+	<string>未选选项</string>
+	<key>Usage Stats</key>
+	<string>使用统计</string>
+	<key>User details go here</key>
+	<string>用户详情在此</string>
+	<key>Username</key>
+	<string>用户名</string>
+	<key>With Action</key>
+	<string>带操作</string>
+	<key>With Icon</key>
+	<string>带图标</string>
+	<key>With shortcut</key>
+	<string>带快捷键</string>
+	<key>brew install</key>
+	<string>brew install</string>
+	<key>brew search</key>
+	<string>brew search</string>
+	<key>brew uninstall</key>
+	<string>brew uninstall</string>
+	<key>brew upgrade</key>
+	<string>brew upgrade</string>
+	<key>not selected</key>
+	<string>未选择</string>
+	<key>selected</key>
+	<string>已选择</string>
+	<key>untitled</key>
+	<string>未命名</string>
+	<key>v%@</key>
+	<string>v%@</string>
+	<key>·</key>
+	<string>·</string>
+</dict>
+</plist>

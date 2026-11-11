@@ -1,0 +1,16 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/Sources/PluginSettingGeneral/Views/GeneralSettingsDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 130
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Support/View+Border+Preview.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "View 边框扩展示例",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 3
+        }
+      }
+    ]
+  },
+  "version": 1
+}

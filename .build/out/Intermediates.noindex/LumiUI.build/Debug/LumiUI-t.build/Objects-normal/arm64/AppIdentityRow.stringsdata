@@ -1,0 +1,16 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppIdentityRow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 37
+        }
+      }
+    ]
+  },
+  "version": 1
+}

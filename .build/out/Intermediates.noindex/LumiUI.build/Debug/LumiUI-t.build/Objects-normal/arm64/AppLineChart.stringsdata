@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppLineChart.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "X: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Y: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 102
+        }
+      }
+    ]
+  },
+  "version": 1
+}

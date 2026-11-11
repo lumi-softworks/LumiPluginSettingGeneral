@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppActivityHeatmap.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Less",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 59
+        }
+      },
+      {
+        "comment": "",
+        "key": "More",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 60
+        }
+      }
+    ]
+  },
+  "version": 1
+}

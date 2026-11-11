@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/ProviderUninstall-primary.dia",
+    "emit-module-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/ProviderUninstall-primary-emit-module.d",
+    "emit-module-diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/ProviderUninstall-primary-emit-module.dia",
+    "pch" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/ProviderUninstall-primary-Bridging-header.pch",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/ProviderUninstall-primary.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiProviders/Sources/ProviderUninstall/DefaultUninstallProvider.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.dia",
+    "index-unit-output-path" : "/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/DefaultUninstallProvider~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiProviders/Sources/ProviderUninstall/UninstallBranding.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.dia",
+    "index-unit-output-path" : "/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallBranding~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiProviders/Sources/ProviderUninstall/UninstallProviding.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.dia",
+    "index-unit-output-path" : "/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderUninstall-t.build/Objects-normal/arm64/UninstallProviding~partial.swiftmodule"
+  }
+}

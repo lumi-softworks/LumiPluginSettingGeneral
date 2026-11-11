@@ -1,0 +1,4 @@
+module ProviderUninstall {
+header "ProviderUninstall-Swift.h"
+export *
+}

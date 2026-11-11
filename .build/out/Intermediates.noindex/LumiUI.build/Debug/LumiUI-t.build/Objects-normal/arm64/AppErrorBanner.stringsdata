@@ -1,0 +1,16 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppErrorBanner.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Retry",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 54
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,4 @@
+module ProviderDocsView {
+header "ProviderDocsView-Swift.h"
+export *
+}

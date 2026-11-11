@@ -1,0 +1,93 @@
+{
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/LumiUIThemeProviding.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeProviding.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeProviding.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeProviding.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeProviding.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeProviding.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/LumiUIThemeRegistry.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeRegistry.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeRegistry.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeRegistry.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeRegistry.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/LumiUIThemeRegistry.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ResolvedEditorSyntax.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedEditorSyntax.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedEditorSyntax.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedEditorSyntax.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedEditorSyntax.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedEditorSyntax.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ResolvedSystemColorScheme.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedSystemColorScheme.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedSystemColorScheme.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedSystemColorScheme.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedSystemColorScheme.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ResolvedSystemColorScheme.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/SystemAppearanceObserver.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/SystemAppearanceObserver.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/SystemAppearanceObserver.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/SystemAppearanceObserver.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/SystemAppearanceObserver.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/SystemAppearanceObserver.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeAppearanceKind.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceKind.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceKind.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceKind.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceKind.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceKind.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeAppearanceSupport.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceSupport.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceSupport.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceSupport.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceSupport.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAppearanceSupport.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeAttachments.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAttachments.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAttachments.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAttachments.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAttachments.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeAttachments.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeCatalog.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeCatalog.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeCatalog.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeCatalog.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeCatalog.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeCatalog.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeError.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeError.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeError.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeError.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeError.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeError.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/ThemeSortKey.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeSortKey.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeSortKey.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeSortKey.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeSortKey.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/ThemeSortKey.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Theme/View+InfiniteWidth.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/View+InfiniteWidth.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/View+InfiniteWidth.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/View+InfiniteWidth.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/View+InfiniteWidth.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/View+InfiniteWidth.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/DerivedSources/GeneratedStringSymbols_Localizable.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.dia",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/Objects-normal/arm64/GeneratedStringSymbols_Localizable.swiftdeps"
+  }
+}

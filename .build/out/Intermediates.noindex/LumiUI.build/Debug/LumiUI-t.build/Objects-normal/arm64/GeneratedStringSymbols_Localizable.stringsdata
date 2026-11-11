@@ -1,0 +1,121 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiUI.build/Debug/LumiUI-t.build/DerivedSources/GeneratedStringSymbols_Localizable.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Activity on %@: level %lld",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 25
+        },
+        "value": "%@%lld"
+      },
+      {
+        "comment": "",
+        "key": "Add",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connection timeout",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter name",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Failed to load data",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last 24 hours",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Less",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Model",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "More",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plugin-specific options",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shared section styling",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tokens",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 116
+        }
+      }
+    ]
+  },
+  "version": 1
+}

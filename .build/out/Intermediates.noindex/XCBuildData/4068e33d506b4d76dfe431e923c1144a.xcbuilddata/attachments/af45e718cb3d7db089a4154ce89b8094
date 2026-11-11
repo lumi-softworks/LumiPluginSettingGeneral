@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/ProviderCommand-primary.dia",
+    "emit-module-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/ProviderCommand-primary-emit-module.d",
+    "emit-module-diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/ProviderCommand-primary-emit-module.dia",
+    "pch" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/ProviderCommand-primary-Bridging-header.pch",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/ProviderCommand-primary.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiProviders/Sources/ProviderCommand/CommandProviding.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.dia",
+    "index-unit-output-path" : "/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/CommandProviding~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiProviders/Sources/ProviderCommand/DefaultCommandProviding.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.dia",
+    "index-unit-output-path" : "/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiProviders.build/Debug/ProviderCommand-t.build/Objects-normal/arm64/DefaultCommandProviding~partial.swiftmodule"
+  }
+}

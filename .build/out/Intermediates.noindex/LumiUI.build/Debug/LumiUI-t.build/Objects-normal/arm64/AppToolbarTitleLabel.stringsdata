@@ -1,0 +1,24 @@
+{
+  "source": "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiUI/Sources/Components/AppToolbarTitleLabel.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "·",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "(3)",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 47
+        }
+      }
+    ]
+  },
+  "version": 1
+}

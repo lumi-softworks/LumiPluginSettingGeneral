@@ -1,0 +1,29 @@
+{
+  "" : {
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalizationKit-primary.dia",
+    "emit-module-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalizationKit-primary-emit-module.d",
+    "emit-module-diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalizationKit-primary-emit-module.dia",
+    "pch" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalizationKit-primary-Bridging-header.pch",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalizationKit-primary.swiftdeps"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiLocalization/Sources/LumiLocalizationKit/LumiLocalization.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.dia",
+    "index-unit-output-path" : "/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/LumiLocalization~partial.swiftmodule"
+  },
+  "/private/tmp/LumiPluginSettingGeneral/.build/checkouts/LumiLocalization/Sources/LumiLocalizationKit/PluginLocalization.swift" : {
+    "const-values" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.swiftconstvalues",
+    "dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.d",
+    "diagnostics" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.dia",
+    "index-unit-output-path" : "/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.o",
+    "llvm-bc" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.bc",
+    "object" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.o",
+    "swift-dependencies" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization.swiftdeps",
+    "swiftmodule" : "/private/tmp/LumiPluginSettingGeneral/.build/out/Intermediates.noindex/LumiLocalization.build/Debug/LumiLocalizationKit-t.build/Objects-normal/arm64/PluginLocalization~partial.swiftmodule"
+  }
+}
