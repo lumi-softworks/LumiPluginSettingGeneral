@@ -76,7 +76,7 @@ struct GeneralSettingsDetailView: View {
         ) {
             VStack(spacing: 0) {
                 AppSettingRow(
-                    title: "Bundle ID",
+                    title: pluginLocalization.string("Bundle ID"),
                     description: bundleInfo.bundleIdentifier,
                     icon: "number"
                 ) {
@@ -150,7 +150,8 @@ struct GeneralSettingsDetailView: View {
             AppSettingRow(
                 title: pluginLocalization.string("Storage"),
                 description: pluginLocalization.string(
-                    "\(configuration.applicationName) uses about %@ of disk space to keep its plugins, preferences, and credentials.",
+                    "%@ uses about %@ of disk space to keep its plugins, preferences, and credentials.",
+                    configuration.applicationName,
                     viewModel.storageSizeDescription
                 ),
                 icon: "internaldrive"
@@ -203,9 +204,13 @@ struct GeneralSettingsDetailView: View {
             titleAlignment: .leading
         ) {
             AppSettingRow(
-                title: pluginLocalization.string("Uninstall \(configuration.applicationName)"),
+                title: pluginLocalization.string(
+                    "Uninstall %@",
+                    configuration.applicationName
+                ),
                 description: pluginLocalization.string(
-                    "Removes all \(configuration.applicationName) data from your Mac."
+                    "Removes all %@ data from your Mac.",
+                    configuration.applicationName
                 ),
                 icon: "trash"
             ) {

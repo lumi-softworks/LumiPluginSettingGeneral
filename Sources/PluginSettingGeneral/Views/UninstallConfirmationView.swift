@@ -47,10 +47,14 @@ struct UninstallConfirmationView: View {
 
     private var headerSection: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(pluginLocalization.string("Uninstall \(configuration.applicationName)"))
+            Text(pluginLocalization.string(
+                "Uninstall %@",
+                configuration.applicationName
+            ))
                 .font(.appTitle)
             Text(pluginLocalization.string(
-                "This will remove all \(configuration.applicationName) data from your Mac."
+                "This will remove all %@ data from your Mac.",
+                configuration.applicationName
             ))
             .font(.appBody)
             .foregroundStyle(.secondary)
@@ -66,7 +70,10 @@ struct UninstallConfirmationView: View {
             .font(.appBody)
 
             Toggle(
-                pluginLocalization.string("Also move the \(configuration.applicationName) app to Trash"),
+                pluginLocalization.string(
+                    "Also move the %@ app to Trash",
+                    configuration.applicationName
+                ),
                 isOn: $removeApplication
             )
             .font(.appBody)

@@ -23,6 +23,8 @@ struct UninstallOverlayView: View {
     static let exitCountdownSeconds = 3
 
     let phase: UninstallOverlayPhase
+    /// 品牌配置，提供应用显示名用于本地化文案中的品牌占位。
+    let configuration: SettingGeneralConfiguration
     let onExit: @MainActor () -> Void
     let onClose: @MainActor () -> Void
 
@@ -46,10 +48,11 @@ struct UninstallOverlayView: View {
     private var content: some View {
         switch phase {
         case .running:
-            RunningView()
+            RunningView(configuration: configuration)
         case let .succeeded(applicationMovedToTrash):
             SucceededView(
                 applicationMovedToTrash: applicationMovedToTrash,
+                configuration: configuration,
                 onExit: onExit
             )
         case let .failed(detail):
@@ -61,21 +64,32 @@ struct UninstallOverlayView: View {
 // MARK: - 卸载中
 
 private struct RunningView: View {
+    let configuration: SettingGeneralConfiguration
+
     var body: some View {
         VStack(spacing: 18) {
             AppSheetIconHeader(systemImage: "trash.fill", title: nil as String?, tint: .red)
 
             VStack(spacing: 6) {
-                Text("正在卸载 Lumi…")
+                Text(pluginLocalization.string(
+                    "Uninstalling %@...",
+                    configuration.applicationName
+                ))
                     .font(.appTitle)
-                Text("正在清除插件数据、偏好设置、扩展数据和凭据。")
+                Text(pluginLocalization.string(
+                    "Clearing plugin data, preferences, extension data, and credentials."
+                ))
                     .font(.appBody)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
             }
 
-            AppLoadingOverlay(message: "此操作无法撤销", size: .small)
+            // `AppLoadingOverlay` 的 message 是 `LocalizedStringKey`，只能取字面量；
+            // 这里用运行时解析出的译文自行渲染，样式与 `AppLoadingOverlay` 保持一致。
+            Text(pluginLocalization.string("This action cannot be undone"))
+                .font(.appCaption)
+                .foregroundStyle(.secondary)
         }
         .frame(maxWidth: .infinity)
     }
@@ -85,6 +99,7 @@ private struct RunningView: View {
 
 private struct SucceededView: View {
     let applicationMovedToTrash: Bool
+    let configuration: SettingGeneralConfiguration
     let onExit: @MainActor () -> Void
 
     @State private var countdown = UninstallOverlayView.exitCountdownSeconds
@@ -94,11 +109,17 @@ private struct SucceededView: View {
             AppSheetIconHeader(systemImage: "checkmark.circle.fill", title: nil as String?, tint: .green)
 
             VStack(spacing: 6) {
-                Text("卸载完成")
+                Text(pluginLocalization.string("Uninstall Complete"))
                     .font(.appTitle)
                 Text(applicationMovedToTrash
-                     ? "Lumi 已从你的 Mac 移除，应用已移到废纸篓。"
-                     : "Lumi 数据已清除，应用即将退出。")
+                     ? pluginLocalization.string(
+                        "%@ has been removed from your Mac and moved to Trash.",
+                        configuration.applicationName
+                     )
+                     : pluginLocalization.string(
+                        "%@ data has been cleared. The app will now quit.",
+                        configuration.applicationName
+                     ))
                     .font(.appBody)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
@@ -110,7 +131,7 @@ private struct SucceededView: View {
                     .font(.system(size: 40, weight: .bold, design: .rounded))
                     .foregroundStyle(.secondary)
                     .contentTransition(.numericText())
-                Text("秒后自动退出")
+                Text(pluginLocalization.string("s until auto-quit"))
                     .font(.appCaption)
                     .foregroundStyle(.secondary)
             }
@@ -140,9 +161,9 @@ private struct FailedView: View {
             AppSheetIconHeader(systemImage: "exclamationmark.triangle.fill", title: nil as String?, tint: .orange)
 
             VStack(spacing: 6) {
-                Text("卸载未完成")
+                Text(pluginLocalization.string("Uninstall Incomplete"))
                     .font(.appTitle)
-                Text("部分数据未能清除，应用未移除。")
+                Text(pluginLocalization.string("Some data could not be cleared. The app was not removed."))
                     .font(.appBody)
                     .foregroundStyle(.secondary)
             }
@@ -161,7 +182,7 @@ private struct FailedView: View {
                     .fill(theme.overlay.opacity(0.5))
             )
 
-            AppButton("关闭", style: .secondary, size: .medium) {
+            AppButton(pluginLocalization.string("Close"), style: .secondary, size: .medium) {
                 onClose()
             }
         }

@@ -252,6 +252,7 @@ final class GeneralSettingsViewModel: ObservableObject {
         NSApp.windows.forEach { $0.orderOut(nil) }
         UninstallOverlayWindowController.shared.show(
             phase: .running,
+            configuration: configuration,
             onExit: { [weak self] in self?.terminateAfterUninstall() },
             onClose: {
                 UninstallOverlayWindowController.shared.close()

@@ -12,6 +12,7 @@ final class UninstallOverlayWindowController {
 
     private var panel: UninstallOverlayPanel?
     private var hostingView: NSHostingView<UninstallOverlayView>?
+    private var configuration: SettingGeneralConfiguration?
     private var onExit: (@MainActor () -> Void)?
     private var onClose: (@MainActor () -> Void)?
 
@@ -20,13 +21,20 @@ final class UninstallOverlayWindowController {
     /// 展示卸载浮层；浮层已存在时刷新内容并前置到最上层。
     func show(
         phase: UninstallOverlayPhase,
+        configuration: SettingGeneralConfiguration,
         onExit: @escaping @MainActor () -> Void,
         onClose: @escaping @MainActor () -> Void
     ) {
         self.onExit = onExit
         self.onClose = onClose
+        self.configuration = configuration
 
-        let rootView = UninstallOverlayView(phase: phase, onExit: onExit, onClose: onClose)
+        let rootView = UninstallOverlayView(
+            phase: phase,
+            configuration: configuration,
+            onExit: onExit,
+            onClose: onClose
+        )
         if let panel, let hostingView {
             hostingView.rootView = rootView
             panel.center()
@@ -64,8 +72,13 @@ final class UninstallOverlayWindowController {
 
     /// 刷新浮层阶段（如 running → succeeded / failed）。
     func update(phase: UninstallOverlayPhase) {
-        guard let panel, let hostingView, let onExit, let onClose else { return }
-        hostingView.rootView = UninstallOverlayView(phase: phase, onExit: onExit, onClose: onClose)
+        guard let panel, let hostingView, let configuration, let onExit, let onClose else { return }
+        hostingView.rootView = UninstallOverlayView(
+            phase: phase,
+            configuration: configuration,
+            onExit: onExit,
+            onClose: onClose
+        )
         panel.orderFrontRegardless()
     }
 
@@ -75,6 +88,7 @@ final class UninstallOverlayWindowController {
         panel?.close()
         panel = nil
         hostingView = nil
+        configuration = nil
         onExit = nil
         onClose = nil
     }
