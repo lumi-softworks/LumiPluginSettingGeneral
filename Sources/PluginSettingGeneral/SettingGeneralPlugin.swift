@@ -40,7 +40,7 @@ public final class SettingGeneralPlugin: SuperPlugin, SuperLog {
     public init(
         configuration: SettingGeneralConfiguration = .lumi,
         versionProvider: @escaping @MainActor () -> String? = { AppVersion.current },
-        uninstallProvider: any UninstallProviding? = nil
+        uninstallProvider: (any UninstallProviding)? = nil
     ) {
         self.configuration = configuration
         self.loggerImpl = Logger(subsystem: configuration.loggerSubsystem, category: "SettingGeneral")
