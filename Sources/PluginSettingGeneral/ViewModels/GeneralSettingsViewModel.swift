@@ -1,5 +1,8 @@
 import Darwin
 import Foundation
+#if canImport(UIKit)
+import UIKit
+#endif
 import LumiUI
 import ProviderAppUpdate
 import ProviderDocsView
@@ -111,7 +114,11 @@ final class GeneralSettingsViewModel: ObservableObject {
     }
 
     var isUninstallAvailable: Bool {
+        #if canImport(AppKit)
         uninstallCapability.isUninstallAvailable
+        #else
+        false
+        #endif
     }
 
     var bundleInfo: BundleInfo {
@@ -167,6 +174,7 @@ final class GeneralSettingsViewModel: ObservableObject {
 
             do {
                 let archive = try await diagnosticsCapability.makeDiagnosticsArchive()
+                #if canImport(AppKit)
                 defer { try? FileManager.default.removeItem(at: archive.url) }
                 let panel = NSSavePanel()
                 panel.allowedContentTypes = [.zip]
@@ -187,6 +195,33 @@ final class GeneralSettingsViewModel: ObservableObject {
                     "Logs exported: %@",
                     destination.lastPathComponent
                 )
+                #else
+                // iOS 没有「另存为」面板：用系统分享面板导出压缩包，
+                // 分享结束后删除临时文件。
+                let archiveURL = archive.url
+                let filename = archive.filename
+                var presenter = UIApplication.shared.connectedScenes
+                    .compactMap { $0 as? UIWindowScene }
+                    .first(where: { $0.activationState == .foregroundActive })?
+                    .keyWindow?
+                    .rootViewController
+                while let next = presenter?.presentedViewController { presenter = next }
+                guard let presenter else {
+                    diagnosticsFeedback = pluginLocalization.string("Export failed: %@", "No window to present the share sheet.")
+                    return
+                }
+                let activity = UIActivityViewController(activityItems: [archiveURL], applicationActivities: nil)
+                activity.completionWithItemsHandler = { [weak self] _, completed, _, _ in
+                    try? FileManager.default.removeItem(at: archiveURL)
+                    Task { @MainActor [weak self] in
+                        guard let self else { return }
+                        self.diagnosticsFeedback = completed
+                            ? pluginLocalization.string("Logs exported: %@", filename)
+                            : pluginLocalization.string("Export cancelled.")
+                    }
+                }
+                presenter.present(activity, animated: true)
+                #endif
             } catch {
                 diagnosticsFeedback = pluginLocalization.string(
                     "Export failed: %@",
@@ -249,7 +284,9 @@ final class GeneralSettingsViewModel: ObservableObject {
 
         // 关闭确认弹窗，隐藏设置窗口，切换到与主窗口解耦的独立卸载浮层。
         // 内核停止后设置窗口可能暂时失去内容，浮层负责承载后续所有阶段。
+        #if canImport(AppKit)
         NSApp.windows.forEach { $0.orderOut(nil) }
+        #endif
         UninstallOverlayWindowController.shared.show(
             phase: .running,
             configuration: configuration,

@@ -1,3 +1,4 @@
+#if canImport(AppKit)
 import AppKit
 import SwiftUI
 
@@ -101,3 +102,23 @@ final class UninstallOverlayPanel: NSPanel {
     override var canBecomeKey: Bool { true }
     override var canBecomeMain: Bool { true }
 }
+
+#else
+/// iOS 无法自助卸载 App：保留与 macOS 相同的接口，调用为空操作。
+@MainActor
+final class UninstallOverlayWindowController {
+    static let shared = UninstallOverlayWindowController()
+    private init() {}
+
+    func show(
+        phase: UninstallOverlayPhase,
+        configuration: SettingGeneralConfiguration,
+        onExit: @escaping @MainActor () -> Void,
+        onClose: @escaping @MainActor () -> Void
+    ) {}
+
+    func update(phase: UninstallOverlayPhase) {}
+
+    func close() {}
+}
+#endif
