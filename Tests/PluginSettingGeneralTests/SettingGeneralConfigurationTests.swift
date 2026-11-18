@@ -159,6 +159,30 @@ struct SettingGeneralConfigurationTests {
         #expect(hostOwned.registersOpenSettingsCommand == false)
     }
 
+    @Test("诊断与卸载区块默认显示，品牌预设不受影响")
+    func diagnosticsAndUninstallSectionsDefaultOn() {
+        for config in [SettingGeneralConfiguration.lumi, .wakey] {
+            #expect(config.showsDiagnosticsSection == true)
+            #expect(config.showsUninstallSection == true)
+        }
+    }
+
+    @Test("诊断与卸载区块可按宿主关闭")
+    func diagnosticsAndUninstallSectionsCanBeDisabled() {
+        let config = SettingGeneralConfiguration(
+            pluginID: "com.coffic.benchly.plugin.setting-general",
+            loggerSubsystem: "com.coffic.benchly.plugin.setting-general",
+            applicationName: "Benchly",
+            description: "General settings",
+            openSettingsNotificationName: "lumi.openSettings",
+            uninstallBranding: .wakey,
+            showsDiagnosticsSection: false,
+            showsUninstallSection: false
+        )
+        #expect(config.showsDiagnosticsSection == false)
+        #expect(config.showsUninstallSection == false)
+    }
+
     @Test("隐私说明与法律链接按注入值保存")
     func privacyAndLegalLinksAreStored() {
         let config = SettingGeneralConfiguration(

@@ -51,6 +51,17 @@ public struct SettingGeneralConfiguration: Sendable {
     /// `false` 表示仅在有说明书时显示（Wakey 行为）。
     public let alwaysShowManualsSection: Bool
 
+    /// 是否显示「诊断」区块（导出诊断日志）。
+    ///
+    /// 迁移自不带诊断能力的宿主时设为 `false`，保持迁移前的页面结构。
+    public let showsDiagnosticsSection: Bool
+
+    /// 是否显示「卸载」区块。
+    ///
+    /// 卸载会删除应用数据，仅对明确提供该能力的宿主开放；
+    /// 迁移自不带卸载能力的宿主时设为 `false`。
+    public let showsUninstallSection: Bool
+
     /// 隐私说明文案。
     ///
     /// 非 nil 时在设置页渲染「隐私」分组，直接展示这段陈述（不做成可点击行）。
@@ -82,6 +93,8 @@ public struct SettingGeneralConfiguration: Sendable {
         showsUpdateChannelSection: Bool = true,
         showsCLIInstallSection: Bool = true,
         alwaysShowManualsSection: Bool = true,
+        showsDiagnosticsSection: Bool = true,
+        showsUninstallSection: Bool = true,
         privacyDescription: String? = nil,
         websiteURLString: String? = nil,
         privacyPolicyURLString: String? = nil,
@@ -97,6 +110,8 @@ public struct SettingGeneralConfiguration: Sendable {
         self.showsUpdateChannelSection = showsUpdateChannelSection
         self.showsCLIInstallSection = showsCLIInstallSection
         self.alwaysShowManualsSection = alwaysShowManualsSection
+        self.showsDiagnosticsSection = showsDiagnosticsSection
+        self.showsUninstallSection = showsUninstallSection
         self.privacyDescription = privacyDescription
         self.websiteURLString = websiteURLString
         self.privacyPolicyURLString = privacyPolicyURLString

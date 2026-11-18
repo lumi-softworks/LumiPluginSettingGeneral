@@ -35,8 +35,12 @@ struct GeneralSettingsDetailView: View {
                 if configuration.showsUpdateChannelSection {
                     updatesSection
                 }
-                diagnosticsSection
-                uninstallSection
+                if configuration.showsDiagnosticsSection {
+                    diagnosticsSection
+                }
+                if configuration.showsUninstallSection {
+                    uninstallSection
+                }
             }
             .padding(24)
         }
