@@ -61,26 +61,28 @@ public final class SettingGeneralPlugin: SuperPlugin, SuperLog {
     }
 
     public func onBoot(kernel: KernelCoreContainer) throws {
-        kernel.resolveProvider((any CommandProviding).self)?.registerCommandGroup(
-            CommandMenuGroup(
-                id: "\(id).commands",
-                name: "Settings",
-                items: [
-                    CommandItem(
-                        id: "\(id).openSettings",
-                        title: pluginLocalization.string("Settings..."),
-                        shortcut: ",",
-                        modifiers: .command
-                    ) {
-                        NotificationCenter.default.post(
-                            name: Notification.Name(self.configuration.openSettingsNotificationName),
-                            object: nil
-                        )
-                    },
-                ],
-                placement: .appMenu
+        if configuration.registersOpenSettingsCommand {
+            kernel.resolveProvider((any CommandProviding).self)?.registerCommandGroup(
+                CommandMenuGroup(
+                    id: "\(id).commands",
+                    name: "Settings",
+                    items: [
+                        CommandItem(
+                            id: "\(id).openSettings",
+                            title: pluginLocalization.string("Settings..."),
+                            shortcut: ",",
+                            modifiers: .command
+                        ) {
+                            NotificationCenter.default.post(
+                                name: Notification.Name(self.configuration.openSettingsNotificationName),
+                                object: nil
+                            )
+                        },
+                    ],
+                    placement: .appMenu
+                )
             )
-        )
+        }
 
         guard let settings = kernel.resolveProvider((any SettingViewProviding).self) else {
             // 设置视图未注册：优雅降级，不贡献入口。

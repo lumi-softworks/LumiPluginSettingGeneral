@@ -3,6 +3,11 @@ import ProviderAppUpdate
 import ProviderDocsView
 import ProviderUninstall
 import SwiftUI
+#if canImport(AppKit)
+import AppKit
+#elseif canImport(UIKit)
+import UIKit
+#endif
 
 /// 通用设置详情视图 —— 设置窗口「通用」标签页：多个分组卡片。
 ///
@@ -21,6 +26,12 @@ struct GeneralSettingsDetailView: View {
             VStack(alignment: .leading, spacing: 24) {
                 manualsSection
                 applicationSection
+                if let privacyDescription = configuration.privacyDescription {
+                    privacySection(privacyDescription)
+                }
+                if hasAboutLinks {
+                    aboutUsSection
+                }
                 if configuration.showsUpdateChannelSection {
                     updatesSection
                 }
@@ -93,6 +104,110 @@ struct GeneralSettingsDetailView: View {
                 }
             }
         }
+    }
+
+    // MARK: - 隐私
+
+    /// 隐私说明是一段陈述，不是一个可点开的条目：直接把说明文字放进分组，
+    /// 不画图标、不做成行，避免让人以为点得动。
+    private func privacySection(_ description: String) -> some View {
+        AppSettingSection(
+            title: pluginLocalization.string("Privacy"),
+            titleAlignment: .leading
+        ) {
+            HStack(alignment: .top, spacing: 10) {
+                Image(systemName: "lock.shield")
+                    .foregroundStyle(.secondary)
+                Text(description)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(12)
+            .frame(maxWidth: .infinity, alignment: .leading)
+        }
+    }
+
+    // MARK: - 关于我们
+
+    /// 「关于我们」分组是否有可展示的条目。
+    ///
+    /// 三个法律链接一个都没有时不画这个分组 —— 一个只有标题的空分组看起来
+    /// 就是渲染错误。
+    private var hasAboutLinks: Bool {
+        configuration.websiteURLString != nil
+            || configuration.privacyPolicyURLString != nil
+            || configuration.termsOfServiceURLString != nil
+    }
+
+    /// 「关于我们」分组：官网 / 隐私政策 / 服务条款。
+    ///
+    /// 三个链接各自独立存在，宿主只配了哪个就显示哪个。
+    @ViewBuilder
+    private var aboutUsSection: some View {
+        AppSettingSection(
+            title: pluginLocalization.string("About Us"),
+            titleAlignment: .leading
+        ) {
+            VStack(spacing: 0) {
+                if let website = aboutURL(configuration.websiteURLString) {
+                    aboutRow(
+                        title: pluginLocalization.string("Official Website"),
+                        url: website,
+                        icon: "globe"
+                    )
+                    if configuration.privacyPolicyURLString != nil || configuration.termsOfServiceURLString != nil {
+                        Divider().padding(.vertical, 8)
+                    }
+                }
+                if let privacy = aboutURL(configuration.privacyPolicyURLString) {
+                    aboutRow(
+                        title: pluginLocalization.string("Privacy Policy"),
+                        url: privacy,
+                        icon: "hand.raised"
+                    )
+                    if configuration.termsOfServiceURLString != nil {
+                        Divider().padding(.vertical, 8)
+                    }
+                }
+                if let terms = aboutURL(configuration.termsOfServiceURLString) {
+                    aboutRow(
+                        title: pluginLocalization.string("Terms of Service"),
+                        url: terms,
+                        icon: "doc.text"
+                    )
+                }
+            }
+        }
+    }
+
+    private func aboutRow(title: String, url: URL, icon: String) -> some View {
+        AppSettingRow(
+            title: title,
+            description: url.host ?? url.absoluteString,
+            icon: icon
+        ) {
+            AppButton(
+                pluginLocalization.string("Open"),
+                systemImage: "arrow.up.forward.square",
+                style: .secondary,
+                size: .small
+            ) {
+                openURL(url)
+            }
+        }
+    }
+
+    private func aboutURL(_ string: String?) -> URL? {
+        guard let string else { return nil }
+        return URL(string: string)
+    }
+
+    /// 在默认浏览器中打开链接。
+    private func openURL(_ url: URL) {
+        #if canImport(AppKit)
+        NSWorkspace.shared.open(url)
+        #elseif canImport(UIKit)
+        UIApplication.shared.open(url)
+        #endif
     }
 
     // MARK: - 更新通道

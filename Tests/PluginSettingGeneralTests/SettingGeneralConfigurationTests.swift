@@ -131,4 +131,51 @@ struct SettingGeneralConfigurationTests {
         #expect(!lumiConfig.applicationName.isEmpty)
         #expect(!wakeyConfig.applicationName.isEmpty)
     }
+
+    @Test("隐私与法律链接默认为空，品牌预设不受影响")
+    func privacyAndLegalLinksDefaultToNil() {
+        for config in [SettingGeneralConfiguration.lumi, .wakey] {
+            #expect(config.privacyDescription == nil)
+            #expect(config.websiteURLString == nil)
+            #expect(config.privacyPolicyURLString == nil)
+            #expect(config.termsOfServiceURLString == nil)
+        }
+    }
+
+    @Test("⌘, 命令默认注册，宿主可关闭以避免与壳命令重复")
+    func openSettingsCommandRegistrationDefaultsOn() {
+        #expect(SettingGeneralConfiguration.lumi.registersOpenSettingsCommand == true)
+        #expect(SettingGeneralConfiguration.wakey.registersOpenSettingsCommand == true)
+
+        let hostOwned = SettingGeneralConfiguration(
+            pluginID: "com.coffic.benchly.plugin.setting-general",
+            loggerSubsystem: "com.coffic.benchly.plugin.setting-general",
+            applicationName: "Benchly",
+            description: "General settings",
+            openSettingsNotificationName: "lumi.openSettings",
+            uninstallBranding: .wakey,
+            registersOpenSettingsCommand: false
+        )
+        #expect(hostOwned.registersOpenSettingsCommand == false)
+    }
+
+    @Test("隐私说明与法律链接按注入值保存")
+    func privacyAndLegalLinksAreStored() {
+        let config = SettingGeneralConfiguration(
+            pluginID: "com.coffic.benchly.plugin.setting-general",
+            loggerSubsystem: "com.coffic.benchly.plugin.setting-general",
+            applicationName: "Benchly",
+            description: "General settings",
+            openSettingsNotificationName: "lumi.openSettings",
+            uninstallBranding: .wakey,
+            privacyDescription: "Benchly 不收集任何个人数据。",
+            websiteURLString: "https://coffic.cn/benchly",
+            privacyPolicyURLString: "https://coffic.cn/privacy",
+            termsOfServiceURLString: "https://coffic.cn/terms"
+        )
+        #expect(config.privacyDescription == "Benchly 不收集任何个人数据。")
+        #expect(config.websiteURLString == "https://coffic.cn/benchly")
+        #expect(config.privacyPolicyURLString == "https://coffic.cn/privacy")
+        #expect(config.termsOfServiceURLString == "https://coffic.cn/terms")
+    }
 }

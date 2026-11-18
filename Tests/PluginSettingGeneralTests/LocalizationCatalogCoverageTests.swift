@@ -30,6 +30,12 @@ struct LocalizationCatalogCoverageTests {
         "Bundle ID",
         "Version",
         "Unknown",
+        // 隐私与关于我们
+        "Privacy",
+        "About Us",
+        "Official Website",
+        "Privacy Policy",
+        "Terms of Service",
         // 更新通道
         "Updates",
         "Check for Updates",

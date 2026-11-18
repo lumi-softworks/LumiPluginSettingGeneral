@@ -51,6 +51,27 @@ public struct SettingGeneralConfiguration: Sendable {
     /// `false` 表示仅在有说明书时显示（Wakey 行为）。
     public let alwaysShowManualsSection: Bool
 
+    /// 隐私说明文案。
+    ///
+    /// 非 nil 时在设置页渲染「隐私」分组，直接展示这段陈述（不做成可点击行）。
+    public let privacyDescription: String?
+
+    /// 官方网站链接，出现在「关于我们」分组。
+    public let websiteURLString: String?
+
+    /// 隐私政策链接，出现在「关于我们」分组。
+    public let privacyPolicyURLString: String?
+
+    /// 服务条款链接，出现在「关于我们」分组。
+    public let termsOfServiceURLString: String?
+
+    /// 是否经 `CommandProviding` 注册「设置…」⌘, 菜单命令。
+    ///
+    /// 宿主壳自带 ⌘,（如 LumiFactory `HostCommands` 的
+    /// `CommandGroup(replacing: .appSettings)`）时设为 `false`，
+    /// 避免应用菜单出现两个「设置…」项。
+    public let registersOpenSettingsCommand: Bool
+
     public init(
         pluginID: String,
         loggerSubsystem: String,
@@ -60,7 +81,12 @@ public struct SettingGeneralConfiguration: Sendable {
         uninstallBranding: UninstallBranding,
         showsUpdateChannelSection: Bool = true,
         showsCLIInstallSection: Bool = true,
-        alwaysShowManualsSection: Bool = true
+        alwaysShowManualsSection: Bool = true,
+        privacyDescription: String? = nil,
+        websiteURLString: String? = nil,
+        privacyPolicyURLString: String? = nil,
+        termsOfServiceURLString: String? = nil,
+        registersOpenSettingsCommand: Bool = true
     ) {
         self.pluginID = pluginID
         self.loggerSubsystem = loggerSubsystem
@@ -71,6 +97,11 @@ public struct SettingGeneralConfiguration: Sendable {
         self.showsUpdateChannelSection = showsUpdateChannelSection
         self.showsCLIInstallSection = showsCLIInstallSection
         self.alwaysShowManualsSection = alwaysShowManualsSection
+        self.privacyDescription = privacyDescription
+        self.websiteURLString = websiteURLString
+        self.privacyPolicyURLString = privacyPolicyURLString
+        self.termsOfServiceURLString = termsOfServiceURLString
+        self.registersOpenSettingsCommand = registersOpenSettingsCommand
     }
 
     /// Lumi 品牌的默认配置。
