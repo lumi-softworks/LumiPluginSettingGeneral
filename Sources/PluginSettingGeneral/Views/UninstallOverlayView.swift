@@ -104,6 +104,21 @@ private struct SucceededView: View {
 
     @State private var countdown = UninstallOverlayView.exitCountdownSeconds
 
+    /// 完成文案：macOS 应用会移入废纸篓；iOS 没有废纸篓概念，说「设备」。
+    private var removedFromHostText: String {
+        #if os(macOS)
+        pluginLocalization.string(
+            "%@ has been removed from your Mac and moved to Trash.",
+            configuration.applicationName
+        )
+        #else
+        pluginLocalization.string(
+            "%@ has been removed from this device.",
+            configuration.applicationName
+        )
+        #endif
+    }
+
     var body: some View {
         VStack(spacing: 18) {
             AppSheetIconHeader(systemImage: "checkmark.circle.fill", title: nil as String?, tint: .green)
@@ -112,10 +127,7 @@ private struct SucceededView: View {
                 Text(pluginLocalization.string("Uninstall Complete"))
                     .font(.appTitle)
                 Text(applicationMovedToTrash
-                     ? pluginLocalization.string(
-                        "%@ has been removed from your Mac and moved to Trash.",
-                        configuration.applicationName
-                     )
+                     ? removedFromHostText
                      : pluginLocalization.string(
                         "%@ data has been cleared. The app will now quit.",
                         configuration.applicationName

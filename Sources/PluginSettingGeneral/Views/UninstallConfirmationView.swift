@@ -41,7 +41,11 @@ struct UninstallConfirmationView: View {
             buttonBar
                 .padding(16)
         }
+        #if os(iOS)
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        #else
         .frame(width: 560, height: 480)
+        #endif
         .background(theme.surface)
     }
 
@@ -52,13 +56,25 @@ struct UninstallConfirmationView: View {
                 configuration.applicationName
             ))
                 .font(.appTitle)
-            Text(pluginLocalization.string(
-                "This will remove all %@ data from your Mac.",
-                configuration.applicationName
-            ))
+            Text(removalWarningText)
             .font(.appBody)
             .foregroundStyle(.secondary)
         }
+    }
+
+    /// 警示文案：macOS 说「Mac」，iOS 说「设备」。
+    private var removalWarningText: String {
+        #if os(macOS)
+        pluginLocalization.string(
+            "This will remove all %@ data from your Mac.",
+            configuration.applicationName
+        )
+        #else
+        pluginLocalization.string(
+            "This will remove all %@ data from this device.",
+            configuration.applicationName
+        )
+        #endif
     }
 
     private var optionsSection: some View {
@@ -102,8 +118,7 @@ struct UninstallConfirmationView: View {
                     }
 
                     if index < min(scan.targets.count, 8) - 1 {
-                        Divider()
-                            .padding(.vertical, 8)
+                        rowDivider
                     }
                 }
 
@@ -149,6 +164,15 @@ struct UninstallConfirmationView: View {
             }
             .disabled(isUninstalling || isScanning)
         }
+    }
+
+    /// iOS 的分组行自带发丝分隔线，只有 macOS 需要显式分隔线。
+    @ViewBuilder
+    private var rowDivider: some View {
+        #if os(macOS)
+        Divider()
+            .padding(.vertical, 8)
+        #endif
     }
 
     private func formattedBytes(_ bytes: Int64) -> String {

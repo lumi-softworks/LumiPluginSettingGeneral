@@ -32,26 +32,45 @@ struct GeneralSettingsDetailView: View {
                 if hasAboutLinks {
                     aboutUsSection
                 }
+                #if os(macOS)
                 if configuration.showsUpdateChannelSection {
                     updatesSection
                 }
+                #endif
                 if configuration.showsDiagnosticsSection {
                     diagnosticsSection
                 }
+                #if os(macOS)
                 if configuration.showsUninstallSection {
                     uninstallSection
                 }
+                #endif
             }
+            #if os(iOS)
+            .padding(.vertical, 4)
+            #else
             .padding(24)
+            #endif
         }
         .sheet(isPresented: $isPresentingManuals) {
             ManualsBrowserView(manuals: viewModel.manuals)
+                .iosLargeSheet()
         }
         .sheet(isPresented: $isPresentingUninstall, onDismiss: {
             viewModel.cancelUninstallScan()
         }) {
             uninstallSheet
+                .iosLargeSheet()
         }
+    }
+
+    /// iOS 的卡片行自带发丝分隔线；macOS 的分组卡片需要显式分隔线。
+    @ViewBuilder
+    private var rowDivider: some View {
+        #if os(macOS)
+        Divider()
+            .padding(.vertical, 8)
+        #endif
     }
 
     // MARK: - 说明书
@@ -63,6 +82,19 @@ struct GeneralSettingsDetailView: View {
                 title: pluginLocalization.string("User Manual"),
                 titleAlignment: .leading
             ) {
+                #if os(iOS)
+                AppSettingRow(
+                    title: pluginLocalization.string("Browse Manuals"),
+                    description: pluginLocalization.string("Usage guides for every feature."),
+                    icon: "book",
+                    action: { isPresentingManuals = true }
+                ) {
+                    Image(systemName: "chevron.right")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(.tertiary)
+                }
+                .disabled(viewModel.manuals.isEmpty)
+                #else
                 AppSettingRow(
                     title: pluginLocalization.string("Browse Manuals"),
                     description: pluginLocalization.string("Usage guides for every feature."),
@@ -78,6 +110,7 @@ struct GeneralSettingsDetailView: View {
                     }
                     .disabled(viewModel.manuals.isEmpty)
                 }
+                #endif
             }
         }
     }
@@ -89,6 +122,22 @@ struct GeneralSettingsDetailView: View {
             title: pluginLocalization.string(configuration.applicationName),
             titleAlignment: .leading
         ) {
+            #if os(iOS)
+            AppSettingRow(
+                title: pluginLocalization.string("Bundle ID"),
+                description: bundleInfo.bundleIdentifier,
+                icon: "number"
+            ) {
+                EmptyView()
+            }
+            AppSettingRow(
+                title: pluginLocalization.string("Version"),
+                description: bundleInfo.version ?? pluginLocalization.string("Unknown"),
+                icon: "tag"
+            ) {
+                EmptyView()
+            }
+            #else
             VStack(spacing: 0) {
                 AppSettingRow(
                     title: pluginLocalization.string("Bundle ID"),
@@ -107,6 +156,7 @@ struct GeneralSettingsDetailView: View {
                     EmptyView()
                 }
             }
+            #endif
         }
     }
 
@@ -159,7 +209,7 @@ struct GeneralSettingsDetailView: View {
                         icon: "globe"
                     )
                     if configuration.privacyPolicyURLString != nil || configuration.termsOfServiceURLString != nil {
-                        Divider().padding(.vertical, 8)
+                        rowDivider
                     }
                 }
                 if let privacy = aboutURL(configuration.privacyPolicyURLString) {
@@ -169,7 +219,7 @@ struct GeneralSettingsDetailView: View {
                         icon: "hand.raised"
                     )
                     if configuration.termsOfServiceURLString != nil {
-                        Divider().padding(.vertical, 8)
+                        rowDivider
                     }
                 }
                 if let terms = aboutURL(configuration.termsOfServiceURLString) {
@@ -184,6 +234,18 @@ struct GeneralSettingsDetailView: View {
     }
 
     private func aboutRow(title: String, url: URL, icon: String) -> some View {
+        #if os(iOS)
+        AppSettingRow(
+            title: title,
+            description: url.host ?? url.absoluteString,
+            icon: icon,
+            action: { openURL(url) }
+        ) {
+            Image(systemName: "arrow.up.right")
+                .font(.footnote.weight(.semibold))
+                .foregroundStyle(.tertiary)
+        }
+        #else
         AppSettingRow(
             title: title,
             description: url.host ?? url.absoluteString,
@@ -198,6 +260,7 @@ struct GeneralSettingsDetailView: View {
                 openURL(url)
             }
         }
+        #endif
     }
 
     private func aboutURL(_ string: String?) -> URL? {
@@ -238,8 +301,7 @@ struct GeneralSettingsDetailView: View {
             }
 
             if viewModel.isUpdateChannelAvailable {
-                Divider()
-                    .padding(.vertical, 8)
+                rowDivider
                 AppSettingRow(
                     title: pluginLocalization.string("Update Channel"),
                     description: pluginLocalization.string("Stable builds are recommended. Beta builds contain new features but may be unstable."),
@@ -266,6 +328,7 @@ struct GeneralSettingsDetailView: View {
             title: pluginLocalization.string("Diagnostics"),
             titleAlignment: .leading
         ) {
+            #if os(macOS)
             AppSettingRow(
                 title: pluginLocalization.string("Storage"),
                 description: pluginLocalization.string(
@@ -285,8 +348,8 @@ struct GeneralSettingsDetailView: View {
                 }
                 .disabled(!viewModel.isStorageAvailable)
             }
-            Divider()
-                .padding(.vertical, 8)
+            rowDivider
+            #endif
             AppSettingRow(
                 title: pluginLocalization.string("Export Logs"),
                 description: pluginLocalization.string(
@@ -327,10 +390,7 @@ struct GeneralSettingsDetailView: View {
                     "Uninstall %@",
                     configuration.applicationName
                 ),
-                description: pluginLocalization.string(
-                    "Removes all %@ data from your Mac.",
-                    configuration.applicationName
-                ),
+                description: uninstallRowDescription,
                 icon: "trash"
             ) {
                 AppButton(
@@ -368,6 +428,21 @@ struct GeneralSettingsDetailView: View {
         viewModel.bundleInfo
     }
 
+    /// 卸载入口行的说明文案：macOS 说「Mac」，iOS 说「设备」。
+    private var uninstallRowDescription: String {
+        #if os(macOS)
+        pluginLocalization.string(
+            "Removes all %@ data from your Mac.",
+            configuration.applicationName
+        )
+        #else
+        pluginLocalization.string(
+            "Removes all %@ data from this device.",
+            configuration.applicationName
+        )
+        #endif
+    }
+
     private func formattedBytes(_ bytes: Int64) -> String {
         ByteCountFormatter.string(fromByteCount: bytes, countStyle: .file)
     }
@@ -381,5 +456,18 @@ struct GeneralSettingsDetailView: View {
         case .appGroup: return "square.stack.3d.up"
         case .preferences: return "slider.horizontal.3"
         }
+    }
+}
+
+private extension View {
+    /// iOS 上用整页 sheet 承载设置子页面（手册 / 卸载确认）。
+    @ViewBuilder
+    func iosLargeSheet() -> some View {
+        #if os(iOS)
+        presentationDetents([.large])
+            .presentationDragIndicator(.visible)
+        #else
+        self
+        #endif
     }
 }

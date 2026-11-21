@@ -16,16 +16,72 @@ struct ManualsBrowserView: View {
     }
 
     var body: some View {
+        #if os(iOS)
+        iosBody
+        #else
+        macBody
+        #endif
+    }
+
+    // MARK: - macOS
+
+    private var macBody: some View {
         HStack(spacing: 0) {
             sidebar
             Divider()
             detail
         }
         .frame(minWidth: 860, minHeight: 560)
-        .onAppear {
-            if selectedID == nil {
-                selectedID = manuals.first?.id
+        .onAppear(perform: selectFirstManualIfNeeded)
+    }
+
+    // MARK: - iOS
+
+    #if os(iOS)
+    /// iOS 上没有横向空间容纳「列表 + 内容」双栏：改为标准的分层导航，
+    /// 手册列表 push 到内容页。
+    private var iosBody: some View {
+        NavigationStack {
+            Group {
+                if manuals.isEmpty {
+                    ContentUnavailableView(
+                        pluginLocalization.string("No user manual yet."),
+                        systemImage: "book"
+                    )
+                } else {
+                    List(manuals) { manual in
+                        NavigationLink {
+                            ScrollView {
+                                manual.makeView()
+                                    .padding(20)
+                                    .frame(maxWidth: .infinity, alignment: .leading)
+                            }
+                            .navigationTitle(manual.name)
+                            .navigationBarTitleDisplayMode(.inline)
+                        } label: {
+                            Label(manual.name, systemImage: "book")
+                        }
+                    }
+                    .listStyle(.insetGrouped)
+                }
             }
+            .navigationTitle(pluginLocalization.string("User Manual"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button(pluginLocalization.string("Done")) {
+                        dismiss()
+                    }
+                }
+            }
+        }
+        .onAppear(perform: selectFirstManualIfNeeded)
+    }
+    #endif
+
+    private func selectFirstManualIfNeeded() {
+        if selectedID == nil {
+            selectedID = manuals.first?.id
         }
     }
 
